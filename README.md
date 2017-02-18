@@ -1,0 +1,2 @@
+# ProjectApp
+EntityFrameworkCore Testing App
