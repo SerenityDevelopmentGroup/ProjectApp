@@ -1,4 +1,5 @@
 ﻿using System;
+using ProjectApp.Data;
 
 namespace SomeConsoleApp
 {
@@ -6,6 +7,7 @@ namespace SomeConsoleApp
     {
         static void Main(string[] args)
         {
+            var myContext = new SyscoPac2013Context();
             Console.WriteLine("Hello World!");
         }
     }

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace ProjectApp.Data
 {
-    public partial class SyscoPac2013Context : DbContext
+    public  class SyscoPac2013Context : DbContext
     {
         public virtual DbSet<AccessRequest> AccessRequest { get; set; }
         public virtual DbSet<AccessRequestStatus> AccessRequestStatus { get; set; }
